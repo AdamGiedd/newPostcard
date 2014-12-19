@@ -7,12 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D48C9ED91A40D76E00980B33 /* Gateway.png in Resources */ = {isa = PBXBuildFile; fileRef = D48C9ED81A40D76E00980B33 /* Gateway.png */; };
 		D4B7204D1A40A9800071A529 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4B7204C1A40A9800071A529 /* AppDelegate.swift */; };
 		D4B7204F1A40A9800071A529 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4B7204E1A40A9800071A529 /* ViewController.swift */; };
 		D4B720521A40A9800071A529 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D4B720501A40A9800071A529 /* Main.storyboard */; };
 		D4B720541A40A9800071A529 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D4B720531A40A9800071A529 /* Images.xcassets */; };
 		D4B720571A40A9800071A529 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = D4B720551A40A9800071A529 /* LaunchScreen.xib */; };
 		D4B720631A40A9800071A529 /* newPostcardTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4B720621A40A9800071A529 /* newPostcardTests.swift */; };
+		D4B7206D1A40ABEC0071A529 /* Screen Shot 2014-11-26 at 1.36.42 PM.png in Resources */ = {isa = PBXBuildFile; fileRef = D4B7206C1A40ABEC0071A529 /* Screen Shot 2014-11-26 at 1.36.42 PM.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -26,6 +28,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		D48C9ED81A40D76E00980B33 /* Gateway.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Gateway.png; sourceTree = "<group>"; };
 		D4B720471A40A9800071A529 /* newPostcard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = newPostcard.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D4B7204B1A40A9800071A529 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D4B7204C1A40A9800071A529 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -36,6 +39,7 @@
 		D4B7205C1A40A9800071A529 /* newPostcardTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = newPostcardTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D4B720611A40A9800071A529 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D4B720621A40A9800071A529 /* newPostcardTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = newPostcardTests.swift; sourceTree = "<group>"; };
+		D4B7206C1A40ABEC0071A529 /* Screen Shot 2014-11-26 at 1.36.42 PM.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Screen Shot 2014-11-26 at 1.36.42 PM.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,6 +94,8 @@
 		D4B7204A1A40A9800071A529 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				D48C9ED81A40D76E00980B33 /* Gateway.png */,
+				D4B7206C1A40ABEC0071A529 /* Screen Shot 2014-11-26 at 1.36.42 PM.png */,
 				D4B7204B1A40A9800071A529 /* Info.plist */,
 			);
 			name = "Supporting Files";
@@ -194,6 +200,8 @@
 			files = (
 				D4B720521A40A9800071A529 /* Main.storyboard in Resources */,
 				D4B720571A40A9800071A529 /* LaunchScreen.xib in Resources */,
+				D4B7206D1A40ABEC0071A529 /* Screen Shot 2014-11-26 at 1.36.42 PM.png in Resources */,
+				D48C9ED91A40D76E00980B33 /* Gateway.png in Resources */,
 				D4B720541A40A9800071A529 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -405,6 +413,7 @@
 				D4B720681A40A9800071A529 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D4B720691A40A9800071A529 /* Build configuration list for PBXNativeTarget "newPostcardTests" */ = {
 			isa = XCConfigurationList;
@@ -413,6 +422,7 @@
 				D4B7206B1A40A9800071A529 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
